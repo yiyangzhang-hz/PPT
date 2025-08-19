@@ -81,3 +81,19 @@ The purpose of Preparation is to store the token embedding sequences obtained fr
 ## 📖 Citation
 
 Don't forget to cite this source if it proves useful in your research!
+
+```yaml
+@inproceedings{zhang-chen-2025-ppt,
+    title = "{PPT}: A Minor Language News Recommendation Model via Cross-Lingual Preference Pattern Transfer",
+    author = "Zhang, Yiyang  and
+      Chen, Nan",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.526/",
+    doi = "10.18653/v1/2025.acl-long.526",
+    pages = "10728--10745",
+}
+```
