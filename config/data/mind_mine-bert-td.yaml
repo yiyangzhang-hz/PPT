@@ -1,0 +1,31 @@
+name: MIND-${version2}-Bert
+base_dir: data_mine/MIND-${version2}/bert
+item:
+  filter_cache: true
+  depot: ${data_td.base_dir}/news
+  order:
+    - title
+  append:
+    - nid
+user:
+  filter_cache: true
+  depots:
+    train:
+      path: ${data_td.base_dir}/train
+    dev:
+      path: ${data_td.base_dir}/dev
+    test:
+      path: ${data_td.base_dir}/test
+  filters:
+    history:
+      - x
+  union:
+    - ${data_td.base_dir}/user
+    - ${data_td.base_dir}/neg
+  candidate_col: nid
+  clicks_col: history
+  label_col: click
+  neg_col: neg
+  group_col: imp
+  user_col: uid
+  index_col: index
