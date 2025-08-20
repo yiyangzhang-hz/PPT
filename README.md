@@ -11,7 +11,7 @@
 ##  📄 Paper
 
 - [PPT: A Minor Language News Recommendation Model via Cross-Lingual Preference Pattern Transfer (ACL 2025)](https://aclanthology.org/2025.acl-long.526/)
-- [Yiyang Zhang](https://yiyangzhang-hz.github.io/)<sup>1</sup>, [Nan Chen](https://openreview.net/profile?id=~Nan_Chen13)<sup>1</sup>
+- [Yiyang Zhang](https://yiyangzhang-hz.github.io/)<sup>1</sup>, [Nan Chen](https://openreview.net/profile?id=~Nan_Chen13)<sup>1</sup> <br>
   <sup>1</sup>USTC 
 - ![Overview of PPT](./figure/overview.png)
 
